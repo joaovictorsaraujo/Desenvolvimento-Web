@@ -3,29 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <titles\>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Save the Planet</h1>
         <nav class="menu">
-            <button>Sobre</button>
-            <button>Impacto</button>
-            <button>Como ajudar</button>
-            <button>Contato</button>
-            <button type="doar">Doar</button>
+            <a href="#problema"><button>Sobre</button></a>
+            <a href="#impacto"><button>Impacto</button></a>
+            <a href="#ajuda"><button>Como ajudar</button></a>
+            <a href="#contato"><button>Contato</button></a>
+            <a href="https://doe.greenpeace.org.br/" target="_blank"><button id="doar">Doar</button></a>
         </nav>
     </header>
     <div>
         <article>
             <section class="hero">
-                <h2>O planeta precisa de você agora</h2>
-                <button>Saiba como ajudar</button>
-                <img src="11383066.png" alt="Imagem do planeta Terra">
+                <h2>O planeta precisa de você <span>agora</span>!</h2>
+                <img src="Terra.gif" alt="Imagem do planeta Terra">
+                <a href="#ajuda"><button>Saiba como ajudar</button></a>
             </section>
 
-            <section class="problema">
+            <section id="problema">
                 <h2>O que está acontecendo?</h2>
                 <p>A cada ano, milhões de hectares de florestas são destruídos, oceanos são poluídos e espécies entram em extinção. As mudanças climáticas já afetam milhões de pessoas em todo o mundo, tornando urgente a necessidade de agir agora.</p>
                 <ul style="list-style-type: disc;">
@@ -36,9 +35,9 @@
                 </ul>
             </section>
 
-            <section class="impacto">
+            <section id="impacto">
                 <h2>Nosso impacto</h2>
-                <h3>Números em destaque:</h3>
+                <p>Números em destaque:</p>
                 <ul style="list-style-type: disc;">
                     <li>🌳 +5.000 árvores plantadas</li>
                     <li>🌍 +20 áreas preservadas</li>
@@ -46,7 +45,7 @@
                 </ul>
             </section>
 
-            <section class="ajuda">
+            <section id="ajuda">
                 <h2>Como ajudar</h2>
                 <p>Você também pode fazer parte da mudança, veja como contribuir:</p>
                 <ul>
@@ -58,7 +57,8 @@
         </article>
     </div>
     <footer>
-        <p>Juntos podemos construir um futuro mais sustentável. Entre em contato e faça parte dessa mudança</p>
+        <p>Juntos podemos construir um futuro mais sustentável. Entre em contato e faça parte dessa mudança:</p>
+        <a href="mailto:joaovictoraraujo.bsi@gmail.com" id="contato" class="email">joaovictoraraujo.bsi@gmail.com</a>
     </footer>
 </body>
 </html>
